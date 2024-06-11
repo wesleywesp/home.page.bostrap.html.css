@@ -1,0 +1,149 @@
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    cursor: pointer;
+}
+@font-face{
+    font-family: Scratchy;
+    src: url(Scratchy.ttf);
+}
+span.scratchy{
+    font-family: scratchy;
+}
+/*menu*/
+.navbar a{
+    text-transform: uppercase;
+    font-family:Zeyada;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px;
+    font-family: scratchy;
+}
+.navbar ul li a:hover{
+    background-color: rgba(85, 83, 83, 0.3);
+    transition: all 
+}
+.navbar-content button{
+    text-transform: uppercase;
+    font-family: scratchy;
+    list-style-type:none;
+    color: white;
+}
+/* home*/
+.home-text-center h1{
+    padding-top: 15%;
+    font-size: 95px;
+    text-align: center;
+    line-height: 1.2;
+    font-family: scratchy;
+    text-transform: uppercase;
+}
+.home-text-content p{
+    text-align: center;
+    padding-top: 2%;
+    line-height: 1.5;
+}
+.home-text-center h2{
+    text-align: center;
+    color: rgb(109, 106, 101, 0.8);
+    font-size: medium;
+    line-height:3;
+}
+/*discografia*/
+.top{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+.top h2{
+    font-size: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: scratchy;
+}
+
+.top h3{
+    font-family: scratchy;
+    font-size: 35px;
+}
+/*tour*/
+.tour h2{
+    padding-top: 5%;
+    font-size: 55px;
+    text-align: center;
+    font-family: scratchy;
+    text-transform: uppercase;
+    color: white;
+}
+
+.bilhetes{
+    padding-top: 5%;
+}
+.bilhetes p{
+    background-color: rgb(240, 235, 235, 0.3);
+    color: black;
+}
+.bilhetes img{
+    display: block;
+    position: relative;
+}
+.bilhetes button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.tour-one button:hover{
+    background-color: rgba(85, 83, 83, 0.3);
+}
+/*foote*/
+.contac h2{
+    text-align: center;
+    font-size: 55px;
+    font-family: scratchy;
+    text-transform: uppercase;
+}
+input{
+    border: 2px solid rgb(13, 13, 13, 0.3);
+    padding: 10px;
+}
+.text button{
+    background-color: black;
+    color: white;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.text button:hover{
+    background-color: rgba(85, 83, 83, 0.3);
+}
+.emoji{
+    background-color: rgba(220, 216, 212, 0.4);
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+}
+.emoji a{
+    color: rgb(9, 8, 8 , 0.5);
+    font-size: 25px;
+    text-decoration: none;
+}
+.text a{
+    color: black;
+    text-decoration: none;
+}
+.text{
+    padding-top: 15%;
+}
